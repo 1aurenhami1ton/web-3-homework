@@ -360,3 +360,7 @@ textarea {
 /* =============
     Footer
 ============= */
+#gallery {
+  display: grid;
+  grid-template-columns: 235px;
+}
