@@ -184,6 +184,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/snowboarding_images\/search icon.png" : {
+      "ft" : 32768,
+      "iS" : 2257,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/snowboarding_images\/search icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/snowboarding_images\/TechTalk_image.webp" : {
       "ft" : 8388608,
       "iS" : 112462,
@@ -494,21 +507,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_gallery.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/sections\/_header.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_header.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

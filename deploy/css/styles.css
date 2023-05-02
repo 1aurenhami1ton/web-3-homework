@@ -357,6 +357,30 @@ textarea {
 /* =============
     Header
 ============= */
+#header {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: black;
+}
+#header nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: black;
+}
+#header nav h1 {
+  color: white;
+}
+#header nav {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: black;
+}
+@media (min-width: 768px) {
+  #header {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 /* =============
     Footer
 ============= */
@@ -364,6 +388,11 @@ textarea {
   display: grid;
   grid-template-columns: 235px;
   background-color: aqua;
+}
+@media (min-width: 768px) {
+  #gallery {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 #hero {
@@ -379,6 +408,11 @@ textarea {
   display: grid;
   grid-template-columns: 1fr;
   background-color: #b40000;
+}
+@media (min-width: 768px) {
+  #hero {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 #subhero {
@@ -433,4 +467,9 @@ textarea {
 }
 #subhero section div h5 {
   color: white;
+}
+@media (min-width: 768px) {
+  #subhero section {
+    grid-template-columns: 20% 80%;
+  }
 }

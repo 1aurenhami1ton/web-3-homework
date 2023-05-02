@@ -2,5 +2,8 @@
     display: grid;
     grid-template-columns: 235px;
     background-color: aqua;
-    
+
+    @include md{
+        grid-template-columns: 1fr 1fr;
+        }
 }

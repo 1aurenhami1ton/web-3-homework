@@ -7,10 +7,20 @@
         display: grid;
         grid-template-columns: 1fr;
         background-color: #8f0000;
+
+        &.left{
+            
+        }
     }
+    
     div{
         display: grid;
         grid-template-columns: 1fr;
         background-color: #b40000;
     }
+
+    @include md{
+        grid-template-columns: 1fr 1fr;
+
+        }
 }

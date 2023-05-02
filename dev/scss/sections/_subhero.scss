@@ -42,7 +42,10 @@ section{
         h5{color: white}
         
     }
-
+    
+@include md{
+grid-template-columns: 20% 80%;
+}
 
 } 
 
