@@ -73,6 +73,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/snowboarding_images\/iphone_icon.png" : {
+      "ft" : 32768,
+      "iS" : 4543,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/snowboarding_images\/iphone_icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/snowboarding_images\/korua_logo.png" : {
       "ft" : 32768,
       "iS" : 2136,
@@ -119,6 +132,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/deploy\/img\/snowboarding_images\/location_arrowIcon.png" : {
+      "ft" : 32768,
+      "iS" : 40975,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/snowboarding_images\/location_arrowIcon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/deploy\/img\/snowboarding_images\/our_story.webp" : {

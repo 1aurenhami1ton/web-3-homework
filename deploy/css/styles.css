@@ -364,3 +364,67 @@ textarea {
   display: grid;
   grid-template-columns: 235px;
 }
+
+#hero {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+#hero div {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #8f0000;
+}
+#hero div {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #b40000;
+}
+
+#subhero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#subhero section div {
+  display: grid;
+  grid-template-columns: 50%;
+  background-color: black;
+}
+#subhero section div h2 {
+  color: white;
+}
+#subhero section div h5 {
+  color: white;
+}
+#subhero section div {
+  display: grid;
+  grid-template-columns: 50%;
+  background-color: black;
+}
+#subhero section div h2 {
+  color: white;
+}
+#subhero section div h5 {
+  color: white;
+}
+#subhero section div {
+  display: grid;
+  grid-template-columns: 50%;
+  background-color: black;
+}
+#subhero section div h2 {
+  color: white;
+}
+#subhero section div h5 {
+  color: white;
+}
+#subhero section div {
+  display: grid;
+  grid-template-columns: 50%;
+  background-color: black;
+}
+#subhero section div h2 {
+  color: white;
+}
+#subhero section div h5 {
+  color: white;
+}
