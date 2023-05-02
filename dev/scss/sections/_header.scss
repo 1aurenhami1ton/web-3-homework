@@ -2,20 +2,19 @@
 
 display: grid;
 grid-template-columns: 1fr 1fr;
-background-color: green;
+background-color: black;
 
-
-
-nav{
-    display: grid;
-    grid-template-columns: 100%;
-    background-color: black;
-}
-
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: black;
+    }
 nav{
     display: grid;
     grid-template-columns: 1fr;
-    background-color:gray;
+    background-color: grey;
+    
+
 
 }
 }

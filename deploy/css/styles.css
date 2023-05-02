@@ -363,6 +363,7 @@ textarea {
 #gallery {
   display: grid;
   grid-template-columns: 235px;
+  background-color: aqua;
 }
 
 #hero {
@@ -405,6 +406,11 @@ textarea {
 }
 #subhero section div h5 {
   color: white;
+}
+@media (min-width: 768px) {
+  #subhero section {
+    grid-template-columns: 20% 80%;
+  }
 }
 #subhero section div {
   display: grid;
