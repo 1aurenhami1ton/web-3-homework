@@ -327,6 +327,10 @@ template {
 /* =============
     Base
 ============= */
+img {
+  width: 100%;
+}
+
 /* =============
     Typography
 ============= */
@@ -364,7 +368,7 @@ textarea {
 }
 #header nav {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   background-color: black;
 }
 #header nav h1 {
@@ -372,7 +376,7 @@ textarea {
 }
 #header nav {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   background-color: black;
 }
 @media (min-width: 768px) {
@@ -386,7 +390,7 @@ textarea {
 ============= */
 #gallery {
   display: grid;
-  grid-template-columns: 235px;
+  grid-template-columns: 1fr;
   background-color: aqua;
 }
 @media (min-width: 768px) {
@@ -399,77 +403,81 @@ textarea {
   display: grid;
   grid-template-columns: 1fr;
 }
-#hero div {
+#hero section {
   display: grid;
   grid-template-columns: 1fr;
+}
+#hero section div {
+  background-color: #b40000;
+  padding: 16px;
+}
+#hero section div h4 {
+  color: white;
+}
+#hero section div h5 {
+  color: white;
+}
+#hero section div a {
+  color: white;
+}
+#hero section div.left {
   background-color: #8f0000;
 }
-#hero div {
-  display: grid;
-  grid-template-columns: 1fr;
-  background-color: #b40000;
-}
 @media (min-width: 768px) {
-  #hero {
+  #hero section {
     grid-template-columns: 1fr 1fr;
   }
 }
 
+#more {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+#more ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#more ul li {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 #subhero {
   display: grid;
+  grid-template-columns: 1fr;
+}
+#subhero section {
+  display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: black;
+  margin: 40px;
 }
 #subhero section div {
   display: grid;
-  grid-template-columns: 50%;
+  grid-template-columns: 1fr;
   background-color: black;
+  padding: 16px;
+}
+#subhero section div a {
+  color: white;
 }
 #subhero section div h2 {
-  color: white;
-}
-#subhero section div h5 {
-  color: white;
-}
-#subhero section div {
-  display: grid;
-  grid-template-columns: 50%;
-  background-color: black;
-}
-#subhero section div h2 {
-  color: white;
-}
-#subhero section div h5 {
   color: white;
 }
 @media (min-width: 768px) {
-  #subhero section {
-    grid-template-columns: 20% 80%;
+  #subhero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
-}
-#subhero section div {
-  display: grid;
-  grid-template-columns: 50%;
-  background-color: black;
-}
-#subhero section div h2 {
-  color: white;
-}
-#subhero section div h5 {
-  color: white;
-}
-#subhero section div {
-  display: grid;
-  grid-template-columns: 50%;
-  background-color: black;
-}
-#subhero section div h2 {
-  color: white;
-}
-#subhero section div h5 {
-  color: white;
-}
-@media (min-width: 768px) {
   #subhero section {
-    grid-template-columns: 20% 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    padding: 16px div;
+    padding-display: grid;
+    padding-grid-template-columns: 1fr;
+    padding-background-color: black;
+    padding-margin: 40px 20px;
   }
 }

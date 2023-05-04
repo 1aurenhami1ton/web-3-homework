@@ -3,24 +3,30 @@
     display: grid;
     grid-template-columns: 1fr;
 
-    div{
+    section{
         display: grid;
         grid-template-columns: 1fr;
-        background-color: #8f0000;
+        
+        div{
+            background-color: #b40000;
+            h4{color: white}
+            h5{color: white}
+            a{color: white}
+            padding: 16px;
 
-        &.left{
-            
-        }
-    }
     
-    div{
-        display: grid;
-        grid-template-columns: 1fr;
-        background-color: #b40000;
+            &.left{
+                background-color: #8f0000;
+                
+            }
+        }
+    
+        @include md{
+            grid-template-columns: 1fr 1fr;
+    
+            }
+
     }
 
-    @include md{
-        grid-template-columns: 1fr 1fr;
-
-        }
+    
 }

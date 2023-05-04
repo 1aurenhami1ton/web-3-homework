@@ -1,55 +1,45 @@
 #subhero{
 
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns:  1fr;
 
 section{
-    div{
-        display: grid;
-        grid-template-columns: 50%;  
-        background-color: black;
-        h2{color: white}
-        h5{color: white}
-    }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    margin: 40px;
+
 
     div{
         display: grid;
-        grid-template-columns: 50%;   
+        grid-template-columns: 1fr;  
         background-color: black;
+        a{color: white}
         h2{color: white}
-        h5{color: white}
+        padding: 16px
+
     }
-@include md{
-grid-template-columns: 20% 80%;
 }
 
-} 
-
-section{
-    div{
+    @include md{
         display: grid;
-        grid-template-columns: 50%;   
-        background-color: black;
-        h2{color: white}
-        h5{color: white}
-    }
-
-    div{
-        display: grid;
-        grid-template-columns: 50%;   
-        background-color: black;
-        h2{color: white}
-        h5{color: white}
+        grid-template-columns:  1fr 1fr;
         
-    }
-    
-@include md{
-grid-template-columns: 20% 80%;
-}
+        section{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            background-color: black;
+            padding: 16px
+        
+        
+            div{
+                display: grid;
+                grid-template-columns: 1fr;  
+                background-color: black;
+                margin: 40px 20px;
+            }
+                
+            }
+        }
 
-} 
-
-
-
-
-}
+   }
