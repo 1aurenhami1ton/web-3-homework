@@ -367,12 +367,12 @@ textarea {
   background-color: black;
 }
 #header nav {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
   background-color: black;
 }
-#header nav h1 {
-  color: white;
+#header nav img {
+  width: 65px;
+  height: 68px;
 }
 #header nav {
   display: grid;
@@ -381,7 +381,7 @@ textarea {
 }
 @media (min-width: 768px) {
   #header {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -441,6 +441,11 @@ textarea {
 #more ul li {
   display: grid;
   grid-template-columns: 1fr;
+  background-color: lightgrey;
+}
+#more ul li div {
+  padding: 10px;
+  margin-bottom: 16px;
 }
 
 #subhero {
@@ -451,7 +456,7 @@ textarea {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: black;
-  margin: 40px;
+  margin: 20px;
 }
 #subhero section div {
   display: grid;
@@ -478,6 +483,6 @@ textarea {
     padding-display: grid;
     padding-grid-template-columns: 1fr;
     padding-background-color: black;
-    padding-margin: 40px 20px;
+    padding-margin: 20px 10px;
   }
 }

@@ -3,28 +3,32 @@
 ============= */
 #header{
 
-display: grid;
-grid-template-columns: 1fr;
-background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: black;
 
     nav{
-        display: grid;
-        grid-template-columns:  1fr;
+        display: flex;
         background-color: black;
-        h1{color: white}
-
+        img{
+            width: 65px;
+            height: 68px;
+        
+        }
     }
 
     nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: black;
+
+
     
 
 }
 
 @include md{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     }
 
 }
