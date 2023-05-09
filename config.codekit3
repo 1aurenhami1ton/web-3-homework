@@ -158,43 +158,41 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/img\/snowboarding_images\/planning_image.jpg" : {
-      "ft" : 16384,
-      "iS" : 658888,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/snowboarding_images\/planning_image.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/snowboarding_images\/repair_image.jpg" : {
-      "ft" : 16384,
-      "iS" : 47217,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/snowboarding_images\/repair_image.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/snowboarding_images\/search icon.png" : {
+    "\/deploy\/img\/snowboarding_images\/planning big.png" : {
       "ft" : 32768,
-      "iS" : 2257,
+      "iS" : 85999,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/snowboarding_images\/search icon.png",
+      "oAP" : "\/deploy\/img\/snowboarding_images\/planning big.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/snowboarding_images\/repair big.png" : {
+      "ft" : 32768,
+      "iS" : 64107,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/snowboarding_images\/repair big.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/snowboarding_images\/Search.webp" : {
+      "ft" : 8388608,
+      "iS" : 5586,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/snowboarding_images\/Search.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/deploy\/img\/snowboarding_images\/TechTalk_image.webp" : {
