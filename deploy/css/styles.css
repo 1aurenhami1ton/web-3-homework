@@ -401,14 +401,49 @@ textarea {
 /* =============
     Footer
 ============= */
-#gallery {
+#gallery ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0;
   display: grid;
   grid-template-columns: 1fr;
-  background-color: aqua;
+  grid-template-areas: "herotwo" "herothree";
+}
+#gallery ul li.herotwo {
+  grid-area: herotwo;
+  height: 500px;
+  background-image: url(../img/snowboarding_images/hero_image_02.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+#gallery ul li.herothree {
+  grid-area: herothree;
+  height: 500px;
+  background-image: url(../img/snowboarding_images/hero_image_03.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+#gallery ul li.herofour {
+  grid-area: herofour;
+  height: 500px;
+  background-image: url(../img/snowboarding_images/hero_image_04.jpg);
+  background-size: cover;
+  background-position: center center;
 }
 @media (min-width: 768px) {
-  #gallery {
+  #gallery ul {
     grid-template-columns: 1fr 1fr;
+    grid-template-areas: "herotwo herothree";
+    background-position: center center;
+  }
+}
+@media (min-width: 1024px) {
+  #gallery ul {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "herotwo herothree" "herotwo herofour";
+  }
+  #gallery ul li.herotwo {
+    height: auto;
   }
 }
 
@@ -542,11 +577,45 @@ textarea {
     max-width: 100%;
     height: auto;
   }
-  #subhero section div.planning {
-    margin-top: 0px;
-    margin-bottom: 0px;
+}
+@media (min-width: 1024px) {
+  #subhero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 24px 255px 63px;
+    grid-gap: 16px;
   }
-  #subhero section div.repairs {
-    margin-bottom: 0px;
+  #subhero section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+  }
+  #subhero section div {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: black;
+  }
+  #subhero section div a {
+    color: white;
+  }
+  #subhero section div h2 {
+    color: white;
+  }
+  #subhero section div h2 {
+    padding: 16px;
+  }
+  #subhero section div button {
+    border: none;
+    width: auto;
+    background-color: #B40000;
+    padding: 5px;
+    margin: 16px;
+  }
+  #subhero section div button p {
+    color: white;
+  }
+  #subhero section div img {
+    max-width: 100%;
+    height: auto;
   }
 }

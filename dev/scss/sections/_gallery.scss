@@ -1,12 +1,76 @@
-#gallery{
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: aqua;
+#gallery {
 
+    ul{
+        list-style: none;
+        padding: 0px;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "herotwo"
+        "herothree";
 
+        
 
-    
-    @include md{
-        grid-template-columns: 1fr 1fr;
+        li.herotwo {
+            grid-area: herotwo;
+            height: 500px;
+            background-image: url(../img/snowboarding_images/hero_image_02.jpg);
+            background-size: cover;
+            background-position: center center;
+
         }
+
+        li.herothree {
+            grid-area: herothree;
+            height: 500px;
+            background-image: url(../img/snowboarding_images/hero_image_03.jpg);
+            background-size: cover;
+            background-position: center center;
+        }
+
+        li.herofour {
+            grid-area: herofour;
+            height: 500px;
+            background-image: url(../img/snowboarding_images/hero_image_04.jpg);
+            background-size: cover;
+            background-position: center center;
+        }
+
+
+
+
+        @include md {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+            "herotwo herothree";
+            background-position: center center;
+        }
+
+
+        @include lg {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+                "herotwo herothree"
+                "herotwo herofour";
+
+            li.herotwo{
+
+                height: auto;
+            }
+            
+            
+            
+
+        }
+
+
+
+    }
+
+
+
+
+
+
 }

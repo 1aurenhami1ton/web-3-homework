@@ -85,22 +85,54 @@
         
                 }   
 
-                &.planning{
-                    margin-top: 0px;
-                    margin-bottom: 0px;
-                }
-    
-                &.repairs{
-                    margin-bottom: 0px;
-                }
-
 
 
             }
         }   
     }
 
+    @include lg{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        margin: 24px 255px 63px;
+        grid-gap: 16px;
 
+
+        section{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            background-color: black;
+        
+            div{
+                display: grid;
+                grid-template-columns: 1fr;  
+                background-color: black;
+                a{color: white}
+                h2{color: white}
+                h2{padding: 16px}
+        
+                button{
+                    border: none;
+                    width: auto;
+                    background-color: #B40000;
+                    padding: 5px;
+                    p{color: white}
+                    margin: 16px;
+        
+                }
+        
+                img{
+                    max-width: 100%;  
+                    height: auto; 
+        
+        
+                }   
+
+
+
+            }
+        }   
+    }
 
 
 
