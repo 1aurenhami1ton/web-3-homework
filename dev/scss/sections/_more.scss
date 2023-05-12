@@ -1,30 +1,140 @@
-#more{
+#more {
 
-display: grid;
-grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 1fr;
 
-ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    li{
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        flex-basis:50%;
 
-        display: grid;
-        grid-template-columns: 1fr;
-        background-color: lightgrey;
-        div{
-            padding: 10px;
-            margin-bottom: 16px; 
+
+        li {
+
+            display: grid;
+            grid-template-columns: 1fr;
+            background-color: lightgrey;
+
+
+            figure{
+
+                margin: 0;
+                overflow: hidden;
+                height: 200px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            div {
+                padding: 20px;
+                margin-bottom: 16px;
+
+                button {
+                    border: none;
+                    background-color: #b40000;
+                    color: white;
+                    padding: 6px 20px;
+
+                }
+            }
         }
     }
-}
+
+    @include md{
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 25px;
+            flex-basis:50%;
+            justify-content: space-between;
+
+            li {
+
+                display: grid;
+                grid-template-columns: 1fr;
+                background-color: lightgrey;
+                width: 48%;
+
+                div {
+                    padding: 10px;
+                    margin-bottom: 16px;
+
+                    button {
+                        border: none;
+                        background-color: #b40000;
+                        color: white;
+                        padding: 6px 20px;
+
+                    }
+                }
+            }
+        
+            li:last-child{
+                margin: 0 auto;
+            }
+        
+        
+        }
 
 
 
 
+    }
+
+    @include lg{
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 25px;
+            flex-basis:31%;
+            justify-content: center;
+
+            li {
+                display: grid;
+                grid-template-columns: 1fr;
+                background-color: lightgrey;
+                width: 31%;
+
+                div {
+                    padding: 10px;
+                    margin-bottom: 16px;
+
+                    button {
+                        border: none;
+                        background-color: #b40000;
+                        color: white;
+                        padding: 6px 20px;
+
+                    }
+                }
+            }
+        
+            li:last-child{
+                margin: 0 ;
+            }
+        
+        
+        }
 
 
 
+
+    }
 
 
 

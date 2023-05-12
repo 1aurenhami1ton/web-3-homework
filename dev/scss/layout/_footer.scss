@@ -2,6 +2,70 @@
     Footer
 ============= */
 #footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: black;
+
+
+
+    section#locations{
+        padding: 17px;
+        H3{ color: white}
+
+
+
+        article{
+            h5{color: white}
+            form{color: white}
+            h3{color: white}
+
+            div.location{
+                display: flex;
+                align-items: center;
+                p{color: white}
+                address{color: white}
+                gap: 16px;
+
+            }
+            
+            div.phone_number{
+                display: flex;
+                align-items: center;
+                p{color: white}
+                address{color: white}
+                gap: 16px;
+
+            }
+
+
+
+        }
+
+       
+    }
+
+    section#newsletter{
+        h3{color: white}
+        form{
+
+            background-color: white;
+        }
+
+
+    }
+
+
+    article{
+        h3{color: white}
+        
+        img{
+            max-width: 23px;
+            max-height: 23px;
+            gap: 24px;
+
+        }
+    }
+
 
 
 

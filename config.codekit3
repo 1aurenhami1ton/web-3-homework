@@ -21,6 +21,19 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/snowboarding_images\/facebook-square-brands.png" : {
+      "ft" : 32768,
+      "iS" : 888,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/snowboarding_images\/facebook-square-brands.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/deploy\/img\/snowboarding_images\/hero_image_01.jpg" : {
       "ft" : 16384,
       "iS" : 73885,
@@ -73,11 +86,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/snowboarding_images\/iphone_icon.png" : {
+    "\/deploy\/img\/snowboarding_images\/instagram-square-brands.png" : {
       "ft" : 32768,
-      "iS" : 4543,
+      "iS" : 1923,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/snowboarding_images\/iphone_icon.png",
+      "oAP" : "\/deploy\/img\/snowboarding_images\/instagram-square-brands.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -134,11 +147,24 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/img\/snowboarding_images\/location_arrowIcon.png" : {
+    "\/deploy\/img\/snowboarding_images\/location-arrow-light.png" : {
       "ft" : 32768,
-      "iS" : 40975,
+      "iS" : 1323,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/snowboarding_images\/location_arrowIcon.png",
+      "oAP" : "\/deploy\/img\/snowboarding_images\/location-arrow-light.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/snowboarding_images\/mobile-android-light.png" : {
+      "ft" : 32768,
+      "iS" : 758,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/snowboarding_images\/mobile-android-light.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -241,6 +267,32 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/snowboarding_images\/twitter-square-brands.png" : {
+      "ft" : 32768,
+      "iS" : 1481,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/snowboarding_images\/twitter-square-brands.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/snowboarding_images\/youtube-square-brands.png" : {
+      "ft" : 32768,
+      "iS" : 1189,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/snowboarding_images\/youtube-square-brands.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/deploy\/index.html" : {

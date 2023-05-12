@@ -401,6 +401,63 @@ textarea {
 /* =============
     Footer
 ============= */
+#footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: black;
+}
+#footer section#locations {
+  padding: 17px;
+}
+#footer section#locations H3 {
+  color: white;
+}
+#footer section#locations article h5 {
+  color: white;
+}
+#footer section#locations article form {
+  color: white;
+}
+#footer section#locations article h3 {
+  color: white;
+}
+#footer section#locations article div.location {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+#footer section#locations article div.location p {
+  color: white;
+}
+#footer section#locations article div.location address {
+  color: white;
+}
+#footer section#locations article div.phone_number {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+#footer section#locations article div.phone_number p {
+  color: white;
+}
+#footer section#locations article div.phone_number address {
+  color: white;
+}
+#footer section#newsletter h3 {
+  color: white;
+}
+#footer section#newsletter form {
+  background-color: white;
+}
+#footer article h3 {
+  color: white;
+}
+#footer article img {
+  max-width: 23px;
+  max-height: 23px;
+  gap: 24px;
+}
+
 #gallery ul {
   list-style: none;
   padding: 0px;
@@ -429,6 +486,7 @@ textarea {
   background-image: url(../img/snowboarding_images/hero_image_04.jpg);
   background-size: cover;
   background-position: center center;
+  display: none;
 }
 @media (min-width: 768px) {
   #gallery ul {
@@ -444,6 +502,9 @@ textarea {
   }
   #gallery ul li.herotwo {
     height: auto;
+  }
+  #gallery ul li.herofour {
+    display: inline;
   }
 }
 
@@ -486,15 +547,97 @@ textarea {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  flex-basis: 50%;
 }
 #more ul li {
   display: grid;
   grid-template-columns: 1fr;
   background-color: lightgrey;
 }
+#more ul li figure {
+  margin: 0;
+  overflow: hidden;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #more ul li div {
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 16px;
+}
+#more ul li div button {
+  border: none;
+  background-color: #b40000;
+  color: white;
+  padding: 6px 20px;
+}
+@media (min-width: 768px) {
+  #more ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    flex-basis: 50%;
+    justify-content: space-between;
+  }
+  #more ul li {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: lightgrey;
+    width: 48%;
+  }
+  #more ul li div {
+    padding: 10px;
+    margin-bottom: 16px;
+  }
+  #more ul li div button {
+    border: none;
+    background-color: #b40000;
+    color: white;
+    padding: 6px 20px;
+  }
+  #more ul li:last-child {
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1024px) {
+  #more ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    flex-basis: 31%;
+    justify-content: center;
+  }
+  #more ul li {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: lightgrey;
+    width: 31%;
+  }
+  #more ul li div {
+    padding: 10px;
+    margin-bottom: 16px;
+  }
+  #more ul li div button {
+    border: none;
+    background-color: #b40000;
+    color: white;
+    padding: 6px 20px;
+  }
+  #more ul li:last-child {
+    margin: 0;
+  }
 }
 
 #subhero {
@@ -533,9 +676,11 @@ textarea {
 #subhero section div button p {
   color: white;
 }
-#subhero section div img {
-  max-width: 100%;
+#subhero section div button img {
+  max-width: 85px;
+  max-height: 85px;
   height: auto;
+  align-content: space-between;
 }
 @media (min-width: 768px) {
   #subhero {
@@ -574,15 +719,16 @@ textarea {
     color: white;
   }
   #subhero section div img {
-    max-width: 100%;
+    max-width: 100px;
     height: auto;
+    align-content: space-between;
   }
 }
 @media (min-width: 1024px) {
   #subhero {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 24px 255px 63px;
+    margin: 24px 2% 63px;
     grid-gap: 16px;
   }
   #subhero section {
@@ -617,5 +763,6 @@ textarea {
   #subhero section div img {
     max-width: 100%;
     height: auto;
+    align-content: space-between;
   }
 }
