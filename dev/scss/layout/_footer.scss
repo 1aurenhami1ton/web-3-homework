@@ -46,10 +46,27 @@
 
     section#newsletter{
         h3{color: white}
+        padding: 20px;
         form{
 
             background-color: white;
+            padding: 10px;
+            margin-bottom: 20px;
+
         }
+
+        button{
+            background-color: #B40000;
+            border: none;
+            color: white;
+            padding: 10px;
+
+
+
+        }
+
+
+
 
 
     }
@@ -59,14 +76,19 @@
         h3{color: white}
         
         img{
-            max-width: 23px;
+            max-width: 22px;
             max-height: 23px;
             gap: 24px;
 
         }
     }
 
+    article#Follow_us{
+        padding: 16px;
+        
 
+
+    }
 
 
 

@@ -334,6 +334,85 @@ img {
 /* =============
     Typography
 ============= */
+h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h4 {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+h5 {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+p {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+button {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 15px;
+}
+button p {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+address {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 13px;
+}
+
+form {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 15px;
+}
+
 /* =============
     Buttons
 ============= */
@@ -381,6 +460,8 @@ textarea {
   align-items: stretch;
   justify-content: space-between;
   gap: 10px;
+  font-family: Montserrat;
+  color: #93A8AC;
 }
 #header section form#search input {
   border: none;
@@ -443,19 +524,33 @@ textarea {
 #footer section#locations article div.phone_number address {
   color: white;
 }
+#footer section#newsletter {
+  padding: 20px;
+}
 #footer section#newsletter h3 {
   color: white;
 }
 #footer section#newsletter form {
   background-color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#footer section#newsletter button {
+  background-color: #B40000;
+  border: none;
+  color: white;
+  padding: 10px;
 }
 #footer article h3 {
   color: white;
 }
 #footer article img {
-  max-width: 23px;
+  max-width: 22px;
   max-height: 23px;
   gap: 24px;
+}
+#footer article#Follow_us {
+  padding: 16px;
 }
 
 #gallery ul {
@@ -542,6 +637,9 @@ textarea {
 #more {
   display: grid;
   grid-template-columns: 1fr;
+}
+#more h1 {
+  padding: 16px;
 }
 #more ul {
   margin: 0;
