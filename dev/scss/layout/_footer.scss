@@ -85,7 +85,7 @@
 
     article#Follow_us{
         padding: 16px;
-        
+
 
 
     }
@@ -93,11 +93,14 @@
 
 
 
+    @include md {
+        grid-template-columns: auto auto;
+    }
 
+    @include lg{
+        grid-template-columns: auto auto auto;
 
-
-
-
+    }
 
 
 

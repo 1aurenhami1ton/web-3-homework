@@ -552,6 +552,16 @@ textarea {
 #footer article#Follow_us {
   padding: 16px;
 }
+@media (min-width: 768px) {
+  #footer {
+    grid-template-columns: auto auto;
+  }
+}
+@media (min-width: 1024px) {
+  #footer {
+    grid-template-columns: auto auto auto;
+  }
+}
 
 #gallery ul {
   list-style: none;
@@ -627,6 +637,7 @@ textarea {
 }
 #hero section div.left {
   background-color: #8f0000;
+  color: white;
 }
 @media (min-width: 768px) {
   #hero section {
@@ -819,7 +830,8 @@ textarea {
   #subhero section div img {
     max-width: 100px;
     height: auto;
-    align-content: space-between;
+    align-content: center;
+    justify-content: space-between;
   }
 }
 @media (min-width: 1024px) {
